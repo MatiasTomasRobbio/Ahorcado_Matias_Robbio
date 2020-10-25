@@ -2,6 +2,7 @@ language: python
 python:
   - "3.8"
 script:
+  - pip install parameterized
   - coverage run test_partida.py
   - coverage run -a test_ahorcado.py
 
