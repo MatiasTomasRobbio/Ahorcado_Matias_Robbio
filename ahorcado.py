@@ -36,9 +36,9 @@ class Ahorcado():
         print("Ahora juega jugador 1")
         nombre1 = str(input("Ingrese el nombre del jugador 1: "))
         dificultad1 = int(input("Ingrese la dificultad[1,10]: "))
-        palabra_adivinar1 = str(input("Jugador 2 ingrese la palabra que"
+        palabra_adivinar1 = str(input("Jugador 2 ingrese la palabra que "
                                       "debera adivinar jugador 1: "))
-        tipo_plabra1 = str(input("Jugador 2 ingrese el tipo"
+        tipo_plabra1 = str(input("Jugador 2 ingrese el tipo "
                                  "de palabra que es: "))
         game1 = ServicesPartidas().iniciar_partida(nombre1,
                                                    dificultad1,
