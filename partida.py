@@ -1,5 +1,5 @@
 class Partida():
-    def __init__(self, palabra=[], intentos=0, tipo_palabra='',
+    def __init__(self, palabra, intentos=0, tipo_palabra='',
                  nombre_jugador='', palabra_aciertos=[]):
         self.palabra = palabra
         self.intentos = intentos

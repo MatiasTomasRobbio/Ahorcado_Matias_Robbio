@@ -4,7 +4,7 @@ python:
 script:
   - pip install parameterized
   - coverage run test_partida.py
-  - coverage run -a test_ahorcado.py
+  - coverage run -a test_ahorcado.py -b
 
 install:
   - pip install -r requirements.txt
